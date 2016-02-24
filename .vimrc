@@ -50,7 +50,8 @@ set expandtab
 " Brackets, parens, etc
 inoremap ( ()<Esc>i
 inoremap [ []<Esc>
-inoremap { {}<Esc>i
+inoremap { {<CR>}<Esc>O<TAB>
+inoremap <C-a> <C-o>a
 
 " NERDTree {
     map <C-e> :NERDTreeToggle<CR>
