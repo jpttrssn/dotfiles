@@ -15,7 +15,7 @@ Plugin 'https://github.com/kien/ctrlp.vim'
 Plugin 'https://github.com/vim-scripts/Conque-Shell'
 Plugin 'https://github.com/scrooloose/nerdcommenter'
 Plugin 'https://github.com/rking/ag.vim'
-Plugin 'https://github.com/Shougo/neocomplete.vim'
+"Plugin 'https://github.com/Shougo/neocomplete.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -33,14 +33,15 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 syntax enable
-let g:solarized_termtrans=1
-let g:solarized_termcolors=256
+"let g:solarized_termtrans=1
+"let g:solarized_termcolors=256
 set background=dark
 colorscheme solarized
 
 set guioptions-=r
 set guioptions-=L
 set number
+set cursorline
 
 set tabstop=4
 set shiftwidth=4
