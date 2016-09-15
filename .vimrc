@@ -47,13 +47,18 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+" Use tabs for make files
+autocmd FileType make setlocal noexpandtab
+
+set clipboard=unnamed
+
 
 " Brackets, parens, etc
-inoremap ( ()<Esc>i
-inoremap [ []<Esc>i
-inoremap { {}<Esc>i
-inoremap <C-k> <CR><CR><C-o>k<Tab>
-inoremap <C-l> <C-o>A;<Esc>
+"inoremap ( ()<Esc>i
+"inoremap [ []<Esc>i
+"inoremap { {}<Esc>i
+"inoremap <C-k> <CR><CR><C-o>k<Tab>
+"inoremap <C-l> <C-o>A;<Esc>
 
 " NERDTree {
     map <C-e> :NERDTreeToggle<CR>
