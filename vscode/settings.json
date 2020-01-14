@@ -1,0 +1,23 @@
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "terminal.integrated.scrollback": 99999,
+    "editor.minimap.enabled": false,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/build": true
+    },
+    "window.zoomLevel": 0,
+    "prettier.requireConfig": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "files.autoSave": "onFocusChange",
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.rendererType": "dom",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "[markdown]": {
+        "editor.formatOnSave": false
+    }
+}
